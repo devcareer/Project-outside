@@ -11,14 +11,15 @@ import {
 } from "react-router-dom";
 
 import Layout from "./Layouts/DefaultLayout";
+import Home from "./pages/Home/Homepage";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App w-full">
       <Routes>
         <Route path="/" element={<Layout />}>
-          {/* <Route index element={<Home />} />
-          <Route path="about" element={<About />} /> */}
+          <Route index element={<Home />} />
+          {/* <Route path="about" element={<About />} /> */}
           {/* <Route path="dashboard" element={<Dashboard />} /> */}
 
           {/* Using path="*"" means "match anything", so this route

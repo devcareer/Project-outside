@@ -1,0 +1,20 @@
+.landing-image {
+    width: 37.25rem;
+    height: 34.375rem;
+}
+
+.find {
+    background-color: #0C66E4;
+    border-radius: 1.25rem;
+    color: #ffffff;
+}
+
+.post {
+    color: #0C66E4;
+    background-color: #E9F2FF;
+    border-radius: 1.25rem;
+}
+
+.big {
+    font-size: 40px;
+}
