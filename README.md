@@ -21,7 +21,7 @@ We want Project-Outside to be the next new platform that artists and musical ven
 
 
 ### 1. Frontend Dependencies
-You must have the **HTML**, **CSS**, and **Javascript** with [Tailwindcss](https://tailwindcss.com/docs/installation) for our website's frontend. Tailwindcss can only be installed by Node Package Manager (NPM). Therefore, if not already, download and install the [Node.js](https://nodejs.org/en/download/). Windows users must run the executable as an Administrator, and restart the computer after installation. After successfully installing the Node, verify the installation as shown below.
+You must have the **HTML**, **CSS**, **Javascript** and **ReactJS** with [Tailwindcss](https://tailwindcss.com/docs/installation) for our website's frontend. Tailwindcss can only be installed by Node Package Manager (NPM). Therefore, if not already, download and install the [Node.js](https://nodejs.org/en/download/). Windows users must run the executable as an Administrator, and restart the computer after installation. After successfully installing the Node, verify the installation as shown below.
 ```
 node -v
 npm -v
