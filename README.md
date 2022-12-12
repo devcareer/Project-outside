@@ -9,7 +9,7 @@ Your job is to build out the UI (user interface) using react and fetch the API d
 
 ## Overview
 
-This app is has a design and an API ready. The objectives of the app ar ass follows:
+This app is has a design and an API ready. The objectives of the app are as follows:
 
 * creating new venues, artists, and creating new shows.
 * searching for venues and artists.
