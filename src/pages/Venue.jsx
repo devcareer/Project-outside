@@ -76,7 +76,7 @@ export default function Venue() {
             </div>
           </div>
         </div>
-        <div className="   hover:bg-gray-200 transition ease-out duration-500 hover:scale-105 hover:opacity-70 mb-6 flex w-[350px] h-[80px] bg-[#F7F8F9]  border rounded-[60px] md:h-[100px] md:w-[65%]">
+        <div className="   hover:bg-gray-200 transition ease-out duration-500 hover:scale-105 hover:opacity-70  flex w-[350px] h-[80px] bg-[#F7F8F9]  border rounded-[60px] md:h-[100px] md:w-[65%]">
           <div className=" h-[80px] md:h-[100px] w-[902px] ml-[5px] flex  items-center ">
             <div>
               <img
@@ -101,7 +101,7 @@ export default function Venue() {
           </div>
         </div>
       </div>
-      <div className="flex justify-around">
+      <div className="flex justify-around mt-[62px] ">
         <div className=" text-[10px] md:text-[14px] leading-5 font-medium">
           Showing 10 of 30
         </div>
