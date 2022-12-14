@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import sammy from '../assets/images/sammy.svg'
 function Shows() {
 
@@ -66,14 +67,14 @@ function Shows() {
     ]
 
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-12 lg:gap:16 w-10/12 mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-12 lg:gap:16 w-10/12 mx-auto my-24 max-w-3xl">
             {shows.map((show) => (
                 <div key={show.id} className="bg-[#F7F8F9] flex flex-col items-center justify-center rounded-2xl p-7">
                     <img src={sammy} alt="" />
                     <p className="text-[#626F86] my-2">{show.date}</p>
-                    <h3 className="text-xl font-medium underline">{show.performer}</h3>
+                    <Link to="/shows" className="text-xl font-medium underline">{show.performer}</Link>
                     <span className="my-2">performing at</span>
-                    <h3 className="text-xl text-center font-medium underline">{show.venue}</h3>
+                    <Link to="/shows" className="text-xl text-center font-medium underline">{show.venue}</Link>
                 </div>
             ))}
         </div>
