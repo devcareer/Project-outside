@@ -28,7 +28,7 @@ function Layout() {
       {/* An <Outlet> renders whatever child route is currently active,
               so you can think about this <Outlet> as a placeholder for
               the child routes we defined above. */}
-      <Outlet />
+     <div className="max-w-screen-xl mx-auto"> <Outlet /></div>
     </div>
   );
 }
