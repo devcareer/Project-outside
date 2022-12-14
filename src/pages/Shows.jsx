@@ -67,10 +67,10 @@ function Shows() {
     ]
 
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10 md:gap-14 lg:gap-18 w-10/12 mx-auto my-24 max-w-4xl xl:max-w-5xl">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10 md:gap-14 lg:gap-[136px] w-10/12 mx-auto my-24 max-w-4xl xl:max-w-5xl">
             {shows.map((show) => (
                 <div key={show.id} className="bg-[#F7F8F9] flex flex-col items-center justify-center rounded-[60px] p-7">
-                    <img className="rounded-[20px] w-36 h-36 object-cover" src={sammy} alt="" />
+                    <img className="rounded-[20px] w-[144px] h-[144px] object-cover" src={sammy} alt="" />
                     <p className="text-[#626F86] my-2">{show.date}</p>
                     <Link to="/shows" className="text-xl font-medium underline">{show.performer}</Link>
                     <span className="my-2 text-[#626F86]">performing at</span>
