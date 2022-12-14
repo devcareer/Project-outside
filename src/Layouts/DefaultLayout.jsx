@@ -18,7 +18,7 @@ function Layout() {
             <Link to="/dashboard">Dashboard</Link>
           </li>
           <li>
-            <Link to="/nothing-here">Nothing Here</Link>
+            <Link to="/shows">Shows</Link>
           </li>
         </ul>
       </nav>
