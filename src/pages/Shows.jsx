@@ -67,7 +67,7 @@ function Shows() {
     ]
 
     return (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-12 lg:gap:16 w-10/12 mx-auto my-24 max-w-3xl">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-12 lg:gap:16 w-10/12 mx-auto my-24 max-w-4xl xl:max-w-5xl">
             {shows.map((show) => (
                 <div key={show.id} className="bg-[#F7F8F9] flex flex-col items-center justify-center rounded-2xl p-7">
                     <img src={sammy} alt="" />
