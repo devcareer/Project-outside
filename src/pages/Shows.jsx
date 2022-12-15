@@ -66,7 +66,7 @@ function Shows() {
 	];
 
 	return (
-		<div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-14 md:gap-y-6 lg:gap-[136px] lg:gap-y-[40px] w-10/12 mx-auto my-24">
+		<div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-14 md:gap-y-6 lg:gap-[136px] lg:gap-y-[40px] w-full sm:w-10/12 mx-auto my-24">
 			{shows.map((show) => (
 				<div
 					key={show.id}
