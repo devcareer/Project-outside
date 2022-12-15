@@ -11,7 +11,7 @@ import {
 } from "react-router-dom";
 
 import Layout from "./Layouts/DefaultLayout";
-import Home from "./pages/Home/Homepage";
+import Home from "./pages/Home";
 
 function App() {
   return (
