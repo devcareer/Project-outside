@@ -77,14 +77,19 @@ function Shows() {
 						src={sammy}
 						alt=""
 					/>
-					<p className="text-lg text-[#626F86] mt-8">{show.date}</p>
+					<p className="font-Manrope text-lg text-[#626F86] mt-8 ">
+						{show.date}
+					</p>
 					<Link to="#" className="text-2xl font-medium underline my-[14px]">
 						{show.performer}
 					</Link>
-					<span className="text-lg my-2 text-[#626F86] mb-[14px]">
+					<span className="font-Manrope text-lg my-2 text-[#626F86] mb-[14px]">
 						performing at
 					</span>
-					<Link to="#" className="text-2xl text-center font-medium underline">
+					<Link
+						to="#"
+						className="font-Manrope text-2xl text-center font-medium underline"
+					>
 						{show.venue}
 					</Link>
 				</div>
