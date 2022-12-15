@@ -1,25 +1,8 @@
-<<<<<<< HEAD
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
-import Venues from "./pages/Venues";
-import { Routes, Route } from "react-router-dom";
-import Shows from "./pages/Shows";
-import Layout from "./Layouts/DefaultLayout";
-
-function App() {
-  return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route path="/shows" element={<Shows />} />
-          <Route path="/venues" element={<Venues />} />
-          {/* <Route index element={<Home />} />
-=======
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Shows from './pages/Shows';
 import Layout from './Layouts/DefaultLayout';
+import Venues from './pages/Venues';
 
 function App() {
 	return (
@@ -27,8 +10,8 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Layout />}>
 					<Route path="/shows" element={<Shows />} />
+					<Route path="/venues" element={<Venues />} />
 					{/* <Route index element={<Home />} />
->>>>>>> 4f7fdf132b5d7f52912934b7d96e9c8d036af93d
           <Route path="about" element={<About />} /> */}
 					{/* <Route path="dashboard" element={<Dashboard />} /> */}
 
