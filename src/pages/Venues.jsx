@@ -1,7 +1,7 @@
 import React from "react";
 import Pagination from "../components/pagination";
 
-export default function Venue() {
+export default function Venues() {
   return (
     <div>
       <div className="flex justify-center items-center flex-col mt-2">

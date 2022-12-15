@@ -1,7 +1,7 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
-import Venue from "./pages/Venue";
+import Venues from "./pages/Venues";
 import { Routes, Route } from "react-router-dom";
 import Shows from "./pages/Shows";
 import Layout from "./Layouts/DefaultLayout";
@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="/shows" element={<Shows />} />
-          <Route path="/venue" element={<Venue />} />
+          <Route path="/venues" element={<Venues />} />
           {/* <Route index element={<Home />} />
           <Route path="about" element={<About />} /> */}
           {/* <Route path="dashboard" element={<Dashboard />} /> */}
