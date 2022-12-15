@@ -20,6 +20,9 @@ function Layout() {
           <li>
             <Link to="/shows">Shows</Link>
           </li>
+          <li>
+            <Link to="/venues">Venues</Link>
+          </li>
         </ul>
       </nav>
 
@@ -28,10 +31,9 @@ function Layout() {
       {/* An <Outlet> renders whatever child route is currently active,
               so you can think about this <Outlet> as a placeholder for
               the child routes we defined above. */}
-     <div className="max-w-screen-xl mx-auto">
-      <Outlet />
-     </div>
-     
+      <div className="max-w-screen-xl mx-5 md:mx-auto">
+        <Outlet />
+      </div>
     </div>
   );
 }
