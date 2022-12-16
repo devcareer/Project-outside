@@ -3,7 +3,7 @@ import image from '../assets/landing-img.png';
 
 export default function Home() {
 	return (
-		<div className="flex flex-col-reverse items-center md:flex-row justify-around  mt-10 md:mt-28 mb-16">
+		<div className="flex flex-col md:flex-row items-center  justify-around  mt-10 md:mt-28 mb-16">
 			<div>
 				<h1 className="text-3xl font-medium font-Manrope text-center md:text-left">
 					“Where <span className="font-extrabold">Artist</span> meets{' '}
@@ -12,31 +12,31 @@ export default function Home() {
 
 				<div className="flex justify-evenly md:gap-x-16 mt-10">
 					<a
-						href="#"
+						href="/venues"
 						className="bg-[#0C66E4] px-6 md:px-10 py-3 text-white text-base md:text-lg rounded-[20px] font-medium font-Manrope"
 					>
-						Find a Venue
+						Find a venue
 					</a>
 					<a
 						href="#"
 						className="bg-[#E9F2FF] px-6 md:px-10 py-3 text-[#0C66E4] text-base md:text-lg rounded-[20px] font-medium font-Manrope"
 					>
-						Post a Venue
+						Post a venue
 					</a>
 				</div>
 
 				<div className="flex justify-evenly md:gap-x-16 mt-8">
 					<a
-						href="#"
+						href="/artists"
 						className="bg-[#0C66E4] px-6 md:px-10 py-3 text-white text-base md:text-lg rounded-[20px] font-medium font-Manrope"
 					>
-						Find an Artist
+						Find an artist
 					</a>
 					<a
 						href="#"
 						className="bg-[#E9F2FF] px-6 md:px-10 py-3 text-[#0C66E4] text-base md:text-lg rounded-[20px] font-medium font-Manrope"
 					>
-						Post an Artist
+						Post an artist
 					</a>
 				</div>
 
@@ -46,16 +46,16 @@ export default function Home() {
 
 				<div className="flex justify-evenly md:gap-x-16 mt-5">
 					<a
-						href="#"
+						href="/shows"
 						className="bg-[#0C66E4] px-6 md:px-10 py-3 text-white text-base md:text-lg rounded-[20px] font-medium"
 					>
-						Find a Show
+						Find a show
 					</a>
 					<a
 						href="#"
 						className="bg-[#E9F2FF] px-6 md:px-10 py-3 text-[#0C66E4] text-base md:text-lg rounded-[20px] font-medium"
 					>
-						Post a Show
+						Post a show
 					</a>
 				</div>
 			</div>

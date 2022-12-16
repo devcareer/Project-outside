@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
 const artists = [
 	{
@@ -33,14 +33,12 @@ export default function Artists() {
 					<div className="flex flex-col sm:flex-row gap-y-4 gap-x-[30px] items-center justify-start w-[90%] mx-auto">
 						<img
 							src={artist.imageUrl}
-							className="w-[100px] h-[100px] object-cover"
+							className="w-[80px] h-[80px] object-cover"
 						/>
 						<div className="flex justify-center sm:justify-between w-[90%]">
 							<div className="text-center sm:text-left">
-								<h2 className="text-xl md:text-[24px] font-Manrope mb-2">
-									{artist.name}
-								</h2>
-								<p className="text-base md:text-[18px] font-Manrope text-[#626F86]">
+								<h2 className="text-xl font-Manrope mb-2">{artist.name}</h2>
+								<p className="text-base font-Manrope text-[#626F86]">
 									{artist.address}
 								</p>
 							</div>
@@ -55,4 +53,3 @@ export default function Artists() {
 		</div>
 	);
 }
-
