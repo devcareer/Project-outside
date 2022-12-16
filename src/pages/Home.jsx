@@ -3,7 +3,7 @@ import image from '../assets/landing-img.png';
 
 export default function Home() {
 	return (
-		<div className="flex flex-col md:flex-row items-center  justify-around  mt-10 md:mt-28 mb-16">
+		<div className="flex flex-col-reverse md:flex-row items-center  justify-around  mt-10 md:mt-28 mb-16">
 			<div>
 				<h1 className="text-3xl font-medium font-Manrope text-center md:text-left">
 					“Where <span className="font-extrabold">Artist</span> meets{' '}
