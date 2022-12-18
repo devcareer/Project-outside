@@ -6,6 +6,7 @@ import Layout from './Layouts/DefaultLayout';
 import Venues from './pages/Venues';
 import Artists from './pages/Artists';
 import Home from './pages/Home';
+import SingleVenue from './pages/SingleVenue';
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 					<Route path="/shows" element={<Shows />} />
 					<Route path="/venues" element={<Venues />} />
 					<Route path="/artists" element={<Artists />} />
+					<Route path="/Singlevenue" element={<SingleVenue />} />
 					{/* <Route index element={<Home />} />
           <Route path="about" element={<About />} /> */}
 					{/* <Route path="dashboard" element={<Dashboard />} /> */}
