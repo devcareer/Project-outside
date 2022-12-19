@@ -3,10 +3,10 @@ import React from 'react'
 function ListShow() {
   return (
     <div className="font-[Manrope] h-[75vh] flex flex-col justify-center w-full max-w-2xl mx-auto">
-        <h1 className="my-4 text-3xl md:text-4xl text-left w-full">List a Show</h1>
+        <h1 className="my-4 text-3xl md:text-4xl text-left w-full font-semibold">List a Show</h1>
         <form className="space-y-3" action="">
             <div>
-                <label htmlFor="">Artist ID</label>
+                <label classname="text-sm" htmlFor="">Artist ID</label>
                 <small className="text-[#626F86] ml-2">ID can be found on the Artist's</small>
                 <input 
                     type="text" 
@@ -15,7 +15,7 @@ function ListShow() {
                 />
             </div>
             <div>
-                <label htmlFor="">Venue ID</label>
+                <label classname="text-sm" htmlFor="">Venue ID</label>
                 <small className="text-[#626F86] ml-2">ID can be found on the Venue's</small>
                 <input 
                     type="text" 
@@ -24,7 +24,7 @@ function ListShow() {
                 />
             </div>
             <div>
-                <label htmlFor="">Start Time</label>
+                <label classname="text-sm" htmlFor="">Start Time</label>
                 <input 
                     type="datetime-local"
                     placeholder="22/12/2022"
