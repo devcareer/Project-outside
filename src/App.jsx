@@ -1,19 +1,25 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+
 import Shows from './pages/Shows';
 import Layout from './Layouts/DefaultLayout';
 import Venues from './pages/Venues';
 import ListShow from './pages/ListShow';
 import ListArtist from './pages/ListArtist';
+import Artists from './pages/Artists';
+import Home from './pages/Home';
+
 function App() {
 	return (
 		<div className="App">
 			<Routes>
 				<Route path="/" element={<Layout />}>
+					<Route index element={<Home />} />
 					<Route path="/shows" element={<Shows />} />
 					<Route path="/venues" element={<Venues />} />
 					<Route path="/list-show" element={<ListShow />} />
 					<Route path="/list-artist" element={<ListArtist />} />
+					<Route path="/artists" element={<Artists />} />
 					{/* <Route index element={<Home />} />
           <Route path="about" element={<About />} /> */}
 					{/* <Route path="dashboard" element={<Dashboard />} /> */}

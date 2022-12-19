@@ -66,29 +66,29 @@ function Shows() {
 	];
 
 	return (
-		<div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-14 md:gap-y-6 lg:gap-[136px] lg:gap-y-[40px] w-full sm:w-10/12 mx-auto my-24">
+		<div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-14 md:gap-y-5 lg:gap-[100px] lg:gap-y-10 w-full sm:w-10/12 mx-auto my-24">
 			{shows.map((show) => (
 				<div
 					key={show.id}
-					className="bg-[#F7F8F9] w-full lg:max-w-[492px] flex flex-col items-center justify-center rounded-[60px] p-[33px] mx-auto md:mx-0"
+					className="bg-[#F7F8F9] w-full lg:max-w-[400px] flex flex-col items-center justify-center rounded-[60px] p-7 mx-auto md:mx-0 transition ease-out duration-500 hover:scale-105 hover:opacity-70\"
 				>
 					<img
-						className=" rounded-[20px] w-[144px] h-[144px] object-cover"
+						className=" rounded-[20px] w-[100px] h-[100px] object-cover"
 						src={sammy}
 						alt=""
 					/>
-					<p className="font-Manrope text-lg text-[#626F86] mt-8 ">
+					<p className="font-Manrope text-base text-[#626F86] mt-6 ">
 						{show.date}
 					</p>
-					<Link to="#" className="text-2xl font-medium underline my-[14px]">
+					<Link to="#" className="text-xl font-medium underline my-[14px]">
 						{show.performer}
 					</Link>
-					<span className="font-Manrope text-lg my-2 text-[#626F86] mb-[14px]">
+					<span className="font-Manrope text-base my-2 text-[#626F86] mb-[14px]">
 						performing at
 					</span>
 					<Link
 						to="#"
-						className="font-Manrope text-2xl text-center font-medium underline"
+						className="font-Manrope text-xl text-center font-medium underline"
 					>
 						{show.venue}
 					</Link>
