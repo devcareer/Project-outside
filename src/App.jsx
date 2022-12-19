@@ -9,6 +9,8 @@ import AddArtist from './pages/AddArtist';
 import AddVenue from './pages/AddVenue';
 import Artists from './pages/Artists';
 import Home from './pages/Home';
+import SingleVenue from './pages/SingleVenue';
+import SingleArtist from './pages/SingleArtist';
 
 function App() {
 	return (
@@ -22,6 +24,8 @@ function App() {
 					<Route path="/add-artist" element={<AddArtist />} />
 					<Route path="/add-venue" element={<AddVenue />} />
 					<Route path="/artists" element={<Artists />} />
+					<Route path="/Singlevenue" element={<SingleVenue />} />
+          <Route path="/Singleartist" element={<SingleArtist />} />
 					{/* <Route index element={<Home />} />
           <Route path="about" element={<About />} /> */}
 					{/* <Route path="dashboard" element={<Dashboard />} /> */}
