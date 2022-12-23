@@ -33,7 +33,11 @@ export default function Artists() {
 	console.log(error, isLoaded);
 
 	if (error && error.message) {
-		return <div className='flex justify-center h-[calc(100vh-78.5px)] items-center'>Something went wrong! 😣</div>
+		return (
+			<div className="flex justify-center h-[calc(100vh-78.5px)] items-center">
+				Something went wrong! 😣
+			</div>
+		);
 	}
 
 	return (
@@ -56,8 +60,7 @@ export default function Artists() {
 								<div className="text-center sm:text-left">
 									<h2 className="text-xl font-Manrope mb-2">{artist.name}</h2>
 									<p className="text-base font-Manrope text-[#626F86]">
-										{artist.instagram_handle
- || "Nill"}
+										{artist.instagram_handle || 'Nill'}
 									</p>
 								</div>
 								<img
