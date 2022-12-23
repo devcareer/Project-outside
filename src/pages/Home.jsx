@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import image from '../assets/landing-img.png';
 
 export default function Home() {
@@ -11,33 +12,33 @@ export default function Home() {
 				</h1>
 
 				<div className="flex justify-evenly md:gap-x-16 mt-10">
-					<a
-						href="/venues"
+					<Link
+						to="/venues"
 						className="bg-[#0C66E4] px-6 md:px-10 py-3 text-white text-base md:text-lg rounded-[20px] font-medium font-Manrope"
 					>
 						Find a venue
-					</a>
-					<a
-						href="#"
+					</Link>
+					<Link
+						to="/venues/add"
 						className="bg-[#E9F2FF] px-6 md:px-10 py-3 text-[#0C66E4] text-base md:text-lg rounded-[20px] font-medium font-Manrope"
 					>
 						Post a venue
-					</a>
+					</Link>
 				</div>
 
 				<div className="flex justify-evenly md:gap-x-16 mt-8">
-					<a
-						href="/artists"
+					<Link
+						to="/artists"
 						className="bg-[#0C66E4] px-6 md:px-10 py-3 text-white text-base md:text-lg rounded-[20px] font-medium font-Manrope"
 					>
 						Find an artist
-					</a>
-					<a
-						href="#"
+					</Link>
+					<Link
+						to="/artists/add"
 						className="bg-[#E9F2FF] px-6 md:px-10 py-3 text-[#0C66E4] text-base md:text-lg rounded-[20px] font-medium font-Manrope"
 					>
 						Post an artist
-					</a>
+					</Link>
 				</div>
 
 				<p className="font-medium font-Manrope mt-20 text-center md:text-left">
@@ -45,18 +46,18 @@ export default function Home() {
 				</p>
 
 				<div className="flex justify-evenly md:gap-x-16 mt-5">
-					<a
-						href="/shows"
+					<Link
+						to="/shows"
 						className="bg-[#0C66E4] px-6 md:px-10 py-3 text-white text-base md:text-lg rounded-[20px] font-medium"
 					>
 						Find a show
-					</a>
-					<a
-						href="#"
+					</Link>
+					<Link
+						to="/shows/add"
 						className="bg-[#E9F2FF] px-6 md:px-10 py-3 text-[#0C66E4] text-base md:text-lg rounded-[20px] font-medium"
 					>
 						Post a show
-					</a>
+					</Link>
 				</div>
 			</div>
 

@@ -85,7 +85,7 @@ function ListArtist() {
 						Image
 					</label>
 					<input
-						type="text"
+						type="file"
 						placeholder="Upload"
 						className="rounded-sm w-full border-2 border-gray-300 p-2"
 					/>

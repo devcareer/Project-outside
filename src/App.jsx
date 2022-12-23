@@ -18,9 +18,9 @@ function App() {
 					<Route index element={<Home />} />
 					<Route path="/shows" element={<Shows />} />
 					<Route path="/venues" element={<Venues />} />
-					<Route path="/add-show" element={<AddShow />} />
-					<Route path="/add-artist" element={<AddArtist />} />
-					<Route path="/add-venue" element={<AddVenue />} />
+					<Route path="/shows/add" element={<AddShow />} />
+					<Route path="/artists/add" element={<AddArtist />} />
+					<Route path="/venues/add" element={<AddVenue />} />
 					<Route path="/artists" element={<Artists />} />
 					{/* <Route index element={<Home />} />
           <Route path="about" element={<About />} /> */}
